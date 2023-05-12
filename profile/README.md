@@ -1,84 +1,47 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>实验室介绍</title>
-	<style>
-		/* 样式表 */
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		header {
-			background-color: #008CBA;
-			color: white;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			margin: 0;
-			font-size: 36px;
-		}
-		section {
-			margin: 20px;
-		}
-		h2 {
-			font-size: 24px;
-			margin: 0;
-		}
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		li {
-			margin: 5px 0;
-		}
-		.lang-toggle {
-			display: none;
-		}
-		.lang-toggle.show-cn[data-lang="cn"],
-		.lang-toggle.show-en[data-lang="en"] {
-			display: block;
-		}
-	</style>
-	<script>
-		// 中英文切换
-		function toggleLang() {
-			var langEl = document.getElementById("lang-toggle");
-			var contentEls = document.getElementsByClassName("lang-toggle");
-			var lang = langEl.innerText.trim();
-			if (lang === "中文") {
-				langEl.innerText = "English";
-				for (var i = 0; i < contentEls.length; i++) {
-					contentEls[i].classList.remove("show-cn");
-					contentEls[i].classList.add("show-en");
-				}
-			} else {
-				langEl.innerText = "中文";
-				for (var i = 0; i < contentEls.length; i++) {
-					contentEls[i].classList.remove("show-en");
-					contentEls[i].classList.add("show-cn");
-				}
-			}
-		}
-	</script>
-</head>
 <body>
 	<header>
-		<h1>实验室名称 / Laboratory Name</h1>
-		<button onclick="toggleLang()" id="lang-toggle">English</button>
+		<h1>欢迎来到我们的实验室</h1>
 	</header>
-	<main>
-		<section>
-			<h2>实验室介绍 / Introduction</h2>
-			<p class="lang-toggle show-cn" data-lang="cn">我们是一家致力于XX领域的实验室。</p>
-			<p class="lang-toggle show-en" data-lang="en">We are a laboratory dedicated to the XX field.</p>
-			<p class="lang-toggle show-cn" data-lang="cn">我们通过实验和研究，开发出具有创新性和实用性的科技产品，为人们提供更好的XX体验。</p>
-			<p class="lang-toggle show-en" data-lang="en">Through experimentation and research, we develop innovative and practical technology products to provide people with better XX experiences.</p>
-		</section>
-		<section>
-			<h2>研究方向 / Research Areas</h2>
-			<ul>
-				<li class="lang-toggle show
+<nav>
+	<ul>
+		<li><a href="#introduction">实验室介绍</a></li>
+		<li><a href="#research-areas">研究方向</a></li>
+		<li><a href="#team">团队介绍</a></li>
+		<li><a href="#contact">联系我们</a></li>
+	</ul>
+</nav>
+<main>
+	<section id="introduction">
+		<h2>实验室介绍</h2>
+		<p>我们是一家致力于XX领域的实验室。我们通过实验和研究，开发出具有创新性和实用性的科技产品，为人们提供更好的XX体验。</p>
+	</section>
+	<section id="research-areas">
+		<h2>研究方向</h2>
+		<ul>
+			<li>研究方向1</li>
+			<li>研究方向2</li>
+			<li>研究方向3</li>
+			<li>研究方向4</li>
+		</ul>
+	</section>
+	<section id="team">
+		<h2>团队介绍</h2>
+		<p>我们的团队由一群热爱XX领域的专业人士组成，涵盖了XX领域的多个方面。我们致力于将最前沿的技术应用于产品开发中，不断创新和进步。</p>
+		<ul>
+			<li>团队成员1</li>
+			<li>团队成员2</li>
+			<li>团队成员3</li>
+			<li>团队成员4</li>
+		</ul>
+	</section>
+	<section id="contact">
+		<h2>联系我们</h2>
+		<p>如果您对我们的实验室或产品有任何疑问或建议，请随时联系我们。</p>
+		<p>电话：XXX-XXXX-XXXX</p>
+		<p>电子邮件：XXX@XXXX.com</p>
+		<p>地址：XXX省XXX市XXX区XXX街道XXX号</p>
+	</section>
+</main>
+<footer>
+	<p>版权所有 © 2023 实验室名称</p>
+</footer>
