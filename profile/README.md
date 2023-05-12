@@ -8,16 +8,20 @@
 </nav>
 <main>
 	<section id="introduction">
-		<h2>实验室介绍</h2>
+		<h2>416AudioLab</h2>
 		<p>我们是一家致力于XX领域的实验室。我们通过实验和研究，开发出具有创新性和实用性的科技产品，为人们提供更好的XX体验。</p>
 	</section>
 	<section id="research-areas">
 		<h2>研究方向</h2>
 		<ul>
-			<li>研究方向1</li>
-			<li>研究方向2</li>
-			<li>研究方向3</li>
-			<li>研究方向4</li>
+			<li>多说话人语音分离</li>
+			<li>语音去噪去混响</li>
+			<li>多音乐源分离</li>
+			<li>目标说话人提取</li>
+			<li>声源定位</li>
+			<li>声音事件检测</li>
+			<li>语音情感识别</li>
+			<li>音高估计&旋律提取</li>
 		</ul>
 	</section>
 	<section id="team">
