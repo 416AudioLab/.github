@@ -57,7 +57,6 @@
 			width: 400px;
 			position: relative;
 		}
-		
 		.image {
 			position: absolute;
 			top: 0;
@@ -67,7 +66,6 @@
 			animation: slide 10s infinite;
 			animation-timing-function: linear;
 		}
-		
 		@keyframes slide {
 			0% {
 				left: 0;
@@ -86,7 +84,6 @@
 	</div>
 </body>
 </html>
-
 		<p>我们的团队由一群热爱XX领域的专业人士组成，涵盖了XX领域的多个方面。我们致力于将最前沿的技术应用于产品开发中，不断创新和进步。</p>
 		<ul>
 			<li>团队成员1</li>
