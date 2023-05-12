@@ -19,9 +19,8 @@
 		<h2>Research direction</h2>
 		<ul>
 			<li>Speech Separation</li>
-			<img src="profile/figures/QWB_语音分离.png" width="300" height="300">
 			<img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/QWB_%E8%AF%AD%E9%9F%B3%E5%88%86%E7%A6%BB.png" alt="Speech Separation">
-<p>Speech separation is the task of separating target speech from background interference. Traditionally, speech separation is studied as a signal processing problem.Speech separation is a fundamental task in signal processing with a wide range of applications, including hearing prosthesis, mobile telecommunication, and robust automatic speech and speaker recognition. The human auditory system has the remarkable ability to extract one sound source from a mixture of multiple sources. Speech separation is commonly called the “cocktail party problem”.</p>
+<p>Speech separation is the task of separating target speech from background interference. Traditionally, speech separation is studied as a signal processing problem.Speech separation is a fundamental task in signal processing with a wide range of applications, including hearing prosthesis, mobile telecommunication, and robust automatic speech and speaker recognition.The human auditory system has the remarkable ability to extract one sound source from a mixture of multiple sources. Speech separation is commonly called the “cocktail party problem”.</p>
 			<li>Music Source Separation</li>
 			<li>Sound Source Localization and Detection</li>
 			<li>Melody Extraction & Pitch Estimation</li>
