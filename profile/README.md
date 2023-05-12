@@ -13,7 +13,7 @@
 <main>
 	<section id="introduction">
 		<h2>416AudioLab</h2>
-		<p>我们是一家致力于XX领域的实验室。我们通过实验和研究，开发出具有创新性和实用性的科技产品，为人们提供更好的XX体验。</p>
+		<p>The lab is affiliated with the College of Information Science and Engineering at Xinjiang University. His research interests include sound source separation, music source separation, sound event localization and detection, etc.</p>
 	</section>
 	<section id="research-areas">
 		<h2>Research direction</h2>
