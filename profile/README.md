@@ -48,41 +48,6 @@
 		<h2>Team introduction</h2>
 		<!DOCTYPE html>
 <html>
-<head>
-	<title>图片滚动示例</title>
-	<style>
-		.container {
-			overflow: hidden;
-			height: 200px;
-			width: 400px;
-			position: relative;
-		}
-		.image {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 200px;
-			width: 400px;
-			animation: slide 10s infinite;
-			animation-timing-function: linear;
-		}
-		@keyframes slide {
-			0% {
-				left: 0;
-			}
-			100% {
-				left: -1200px;
-			}
-		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<img class="image" src="image1.jpg">
-		<img class="image" src="image2.jpg">
-		<img class="image" src="image3.jpg">
-	</div>
-</body>
 </html>
 		<p>我们的团队由一群热爱XX领域的专业人士组成，涵盖了XX领域的多个方面。我们致力于将最前沿的技术应用于产品开发中，不断创新和进步。</p>
 		<ul>
