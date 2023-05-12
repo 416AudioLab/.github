@@ -46,10 +46,28 @@
 	</section>
 	<section id="team">
 		<h2>Team introduction</h2>
-		<!DOCTYPE html>
-<html>
-</html>
 		<p>我们的团队由一群热爱XX领域的专业人士组成，涵盖了XX领域的多个方面。我们致力于将最前沿的技术应用于产品开发中，不断创新和进步。</p>
+<body>
+	<div id="container" style="overflow: hidden; height: 200px; width: 400px; position: relative;">
+		<img class="image" src="image1.jpg" style="position: absolute; top: 0; left: 0; height: 200px; width: 400px;">
+		<img class="image" src="image2.jpg" style="position: absolute; top: 0; left: 400px; height: 200px; width: 400px;">
+		<img class="image" src="image3.jpg" style="position: absolute; top: 0; left: 800px; height: 200px; width: 400px;">
+	</div>
+	<script>
+		var container = document.getElementById("container");
+		var images = container.getElementsByClassName("image");
+		var index = 0;
+		var left = 0;
+		setInterval(function() {
+			left -= 400;
+			if (left < -800) {
+				left = 0;
+			}
+			images[index].style.left = left + "px";
+			index = (index + 1) % 3;
+		}, 2000);
+	</script>
+</body>
 		<ul>
 			<li>团队成员1</li>
 			<li>团队成员2</li>
