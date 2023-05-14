@@ -57,6 +57,57 @@
 	</section>
 		<section id="photo">
 		<h2>Life Photo</h2>
+		  <head>
+    <title>展示多张图片</title>
+    <style>
+      .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+	  justify-content: center;
+        align-items: center;
+      }
+      .image {
+        flex: 1 0 200px;
+        margin: 5px;
+        display: none;
+      }
+      .image img {
+        max-width: 700px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-grid">
+      <div class="image">
+        <img src="C:\Users\wen\Desktop\photo\image1.jpg" alt="Your Image 1">
+      </div>
+      <div class="image">
+        <img src="C:\Users\wen\Desktop\photo\image2.jpg" alt="Your Image 2">
+      </div>
+      <div class="image">
+        <img src="C:\Users\wen\Desktop\photo\image3.jpg" alt="Your Image 3">
+      </div>
+    </div>
+    <script>
+      // 获取所有图片元素
+      var images = document.querySelectorAll(".image");
+      
+      // 初始化计数器和轮播间隔
+      var count = 0;
+      var interval = setInterval(function() {
+        // 隐藏所有图片
+        for (var i = 0; i < images.length; i++) {
+          images[i].style.display = "none";
+        }
+        
+        // 显示下一张图片
+        images[count % images.length].style.display = "block";
+        count++;
+      }, 1000);
+    </script>
+  </body>
+</html>
 	</section>
 	<section id="contact">
 		<h2>Contact us</h2>
