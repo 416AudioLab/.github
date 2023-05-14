@@ -1,23 +1,6 @@
 <body>
 	<header>
 		<h1>Welcome to our lab</h1>
-	 <style>
-      .image-grid {
-        display: flex;
-        flex-wrap: wrap;
-	  justify-content: center;
-        align-items: center;
-      }
-      .image {
-        flex: 1 0 200px;
-        margin: 5px;
-        display: none;
-      }
-      .image img {
-        max-width: 700px;
-        height: 300px;
-      }
-    </style>
 	</header>
 <nav>
 	<ul>
@@ -85,21 +68,6 @@
         <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 3">
       </div>
     </div>
-    <script>
-      // 获取所有图片元素
-      var images = document.querySelectorAll(".image");
-      // 初始化计数器和轮播间隔
-      var count = 0;
-      var interval = setInterval(function() {
-        // 隐藏所有图片
-        for (var i = 0; i < images.length; i++) {
-          images[i].style.display = "none";
-        }
-        // 显示下一张图片
-        images[count % images.length].style.display = "block";
-        count++;
-      }, 1000);
-    </script>
 </html>
 	</section>
 	<section id="contact">
