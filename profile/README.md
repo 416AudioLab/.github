@@ -7,6 +7,7 @@
 		<li><a href="#introduction">416AudioLab</a></li>
 		<li><a href="#research-areas">Research direction</a></li>
 		<li><a href="#team">Team introduction</a></li>
+		<li><a href="#photo">Life Photo</a></li>
 		<li><a href="#contact">Contact us</a></li>
 	</ul>
 </nav>
@@ -53,6 +54,9 @@
 			<li>团队成员3</li>
 			<li>团队成员4</li>
 		</ul>
+	</section>
+		<section id="photo">
+		<h2>Life Photo</h2>
 	</section>
 	<section id="contact">
 		<h2>Contact us</h2>
