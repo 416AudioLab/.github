@@ -1,6 +1,23 @@
 <body>
 	<header>
 		<h1>Welcome to our lab</h1>
+	 <style>
+      .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+	  justify-content: center;
+        align-items: center;
+      }
+      .image {
+        flex: 1 0 200px;
+        margin: 5px;
+        display: none;
+      }
+      .image img {
+        max-width: 700px;
+        height: 300px;
+      }
+    </style>
 	</header>
 <nav>
 	<ul>
@@ -57,23 +74,6 @@
 	</section>
 		<section id="photo">
 		<h2>Life Photo</h2>
-    <style>
-      .image-grid {
-        display: flex;
-        flex-wrap: wrap;
-	  justify-content: center;
-        align-items: center;
-      }
-      .image {
-        flex: 1 0 200px;
-        margin: 5px;
-        display: none;
-      }
-      .image img {
-        max-width: 700px;
-        height: 300px;
-      }
-    </style>
     <div class="image-grid">
       <div class="image">
         <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 1">
