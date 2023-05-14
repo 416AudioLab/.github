@@ -55,21 +55,6 @@
 			<li>团队成员4</li>
 		</ul>
 	</section>
-		<section id="photo">
-		<h2>Life Photo</h2>
-    <div class="image-grid">
-      <div class="image">
-        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 1">
-      </div>
-      <div class="image">
-        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 2">
-      </div>
-      <div class="image">
-        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 3">
-      </div>
-    </div>
-</html>
-	</section>
 	<section id="contact">
 		<h2>Contact us</h2>
 		<p>如果您对我们的实验室或产品有任何疑问或建议，请随时联系我们。</p>
