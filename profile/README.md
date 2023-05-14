@@ -57,8 +57,6 @@
 	</section>
 		<section id="photo">
 		<h2>Life Photo</h2>
-		  <head>
-    <title>展示多张图片</title>
     <style>
       .image-grid {
         display: flex;
@@ -76,23 +74,20 @@
         height: 300px;
       }
     </style>
-  </head>
-  <body>
     <div class="image-grid">
       <div class="image">
-        <img src="C:\Users\wen\Desktop\photo\image1.jpg" alt="Your Image 1">
+        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 1">
       </div>
       <div class="image">
-        <img src="C:\Users\wen\Desktop\photo\image2.jpg" alt="Your Image 2">
+        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 2">
       </div>
       <div class="image">
-        <img src="C:\Users\wen\Desktop\photo\image3.jpg" alt="Your Image 3">
+        <img src="https://github.com/416AudioLab/.github/blob/main/profile/figures/ZXJ_%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B.png" alt="Your Image 3">
       </div>
     </div>
     <script>
       // 获取所有图片元素
       var images = document.querySelectorAll(".image");
-      
       // 初始化计数器和轮播间隔
       var count = 0;
       var interval = setInterval(function() {
@@ -100,13 +95,11 @@
         for (var i = 0; i < images.length; i++) {
           images[i].style.display = "none";
         }
-        
         // 显示下一张图片
         images[count % images.length].style.display = "block";
         count++;
       }, 1000);
     </script>
-  </body>
 </html>
 	</section>
 	<section id="contact">
