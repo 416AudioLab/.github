@@ -6,8 +6,6 @@
 	<ul>
 		<li><a href="#introduction">416AudioLab</a></li>
 		<li><a href="#research-areas">Research direction</a></li>
-		<li><a href="#team">Team introduction</a></li>
-		<li><a href="#photo">Life Photo</a></li>
 		<li><a href="#contact">Contact us</a></li>
 	</ul>
 </nav>
@@ -45,24 +43,12 @@
 <p>Speech emotion recognition (SER) is a task that utilizes unimodal or multimodal information to extract rich and salient emotional features for human speech emotion recognition. With the development of artificial intelligence, speech emotion recognition has become an indispensable part of human-computer interaction (HCI) and other developed speech processing systems.</p>
 		</ul>
 	</section>
-	<section id="team">
-		<h2>Team introduction</h2>
-		<p>我们的团队由一群热爱XX领域的专业人士组成，涵盖了XX领域的多个方面。我们致力于将最前沿的技术应用于产品开发中，不断创新和进步。</p>
-		<ul>
-			<li>团队成员1</li>
-			<li>团队成员2</li>
-			<li>团队成员3</li>
-			<li>团队成员4</li>
-		</ul>
-	</section>
 	<section id="contact">
 		<h2>Contact us</h2>
-		<p>如果您对我们的实验室或产品有任何疑问或建议，请随时联系我们。</p>
-		<p>电话：XXX-XXXX-XXXX</p>
-		<p>电子邮件：XXX@XXXX.com</p>
-		<p>地址：XXX省XXX市XXX区XXX街道XXX号</p>
+		<p>Please feel free to contact us if you need anything.</p>
+		<p>电子邮件：wenbing0320@stu.xju.edu.cn</p>
 	</section>
 </main>
 <footer>
-	<p>版权所有 © 2023 实验室名称</p>
+	<p>版权所有 © 2023 416AudioLab</p>
 </footer>
