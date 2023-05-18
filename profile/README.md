@@ -46,7 +46,7 @@
 	<section id="contact">
 		<h2>Contact us</h2>
 		<p>Please feel free to contact us if you need anything.</p>
-		<p>电子邮件：wenbing0320@stu.xju.edu.cn</p>
+		<p>email：huying@xju.edu.cn</p>
 	</section>
 </main>
 <footer>
