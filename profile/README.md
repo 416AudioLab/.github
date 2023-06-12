@@ -4,14 +4,14 @@
 	</header>
 <nav>
 	<ul>
-		<li><a href="#introduction">416AudioLab</a></li>
+		<li><a href="#introduction">VoXLab</a></li>
 		<li><a href="#research-areas">Research direction</a></li>
 		<li><a href="#contact">Contact us</a></li>
 	</ul>
 </nav>
 <main>
 	<section id="introduction">
-		<h2>416AudioLab</h2>
+		<h2>VoXLab</h2>
 		<p>The lab is affiliated with the College of Information Science and Engineering at Xinjiang University. His research interests include sound source separation, music source separation, sound event localization and detection, etc.</p>
 	</section>
 	<section id="research-areas">
@@ -50,5 +50,5 @@
 	</section>
 </main>
 <footer>
-	<p>版权所有 © 2023 416AudioLab</p>
+	<p>版权所有 © 2023 VoXLab</p>
 </footer>
